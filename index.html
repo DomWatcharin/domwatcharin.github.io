@@ -1,114 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Watcharin Phoemphon's Portfolio</title>
-  <link rel="stylesheet" href="stylesheets/stylesheet.css">
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #fff;
-      color: #333;
-    }
-
-    header {
-      background-color: #0074cc;
-      padding: 1em;
-      text-align: center;
-    }
-
-    h1, h2, h3 {
-      color: #0074cc;
-    }
-
-    #main_content_wrap {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 80vh;
-    }
-
-    section {
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      max-width: 600px;
-      width: 100%;
-    }
-
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    li::before {
-      content: "\2022";
-      color: #0074cc;
-      display: inline-block;
-      width: 1em;
-      margin-left: -1em;
-    }
-
-    footer {
-      background-color: #0074cc;
-      color: #fff;
-      text-align: center;
-      padding: 1em;
-    }
-
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Watcharin Phoemphon - Portfolio</title>
 </head>
-
 <body>
 
-  <!-- HEADER -->
-  <div id="header_wrap" class="outer">
-    <header class="inner">
-      <a id="forkme_banner" href="https://github.com/DomWatcharin" style="text-decoration: none; color: #fff;">View on GitHub</a>
-      <h1 id="project_title" style="margin: 10px 0;">Watcharin Phoemphon's Portfolio</h1>
-      <h2 id="project_tagline" style="margin: 0;">Data Scientist | Geomatics Developer | Innovator</h2>
+    <header>
+        <div class="container">
+            <h1>Watcharin Phoemphon</h1>
+            <p>Geomatics Developer | Airbus Defence and Space SAS</p>
+            <div class="social-icons">
+                <a href="mailto:watcharin.phoemphon@gmail.com" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Email">
+                </a>
+                <a href="https://www.linkedin.com/in/watcharin-p-27130716b/" target="_blank">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn Profile">
+                </a>
+                <a href="https://github.com/yourgithubusername" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub Profile">
+                </a>
+            </div>
+        </div>
     </header>
-  </div>
 
-
-<!-- NAVIGATION -->
-<nav style="position: absolute; top: 80px; right: 10px; background-color: transparent; padding: 10px;">
-
-  <!-- Home Button -->
-  <button onclick="location.href='index.html'" style="background: linear-gradient(to right, #0074cc, #005587); color: #fff; border: none; padding: 10px 15px; border-radius: 4px; margin-right: 10px; cursor: pointer;">Home</button>
-
-  <!-- Page 2 Button -->
-  <button onclick="location.href='page2.html'" style="background: linear-gradient(to right, #00a859, #007f4e); color: #fff; border: none; padding: 10px 15px; border-radius: 4px; margin-right: 10px; cursor: pointer;">Page 2</button>
-
-  <!-- Contact Button -->
-  <button onclick="location.href='resume.html'" style="background: linear-gradient(to right, #ff4500, #c9302c); color: #fff; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer;">RESUME</button>
-
-  <!-- Add more buttons for additional pages as needed -->
-
-</nav>
-
-  <!-- MAIN CONTENT -->
-  <div id="main_content_wrap" class="outer">
-    <section id="main_content" class="inner">
-
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I am a passionate and results-driven professional with expertise in web development and data science. Blending technical skills with a creative mindset, I strive to create innovative solutions to complex problems.</p>
+        </div>
     </section>
-  </div>
 
-  
-  <!-- FOOTER -->
-  <div id="footer_wrap" class="outer">
-    <footer class="inner">
-      <p>Published with <a href="https://pages.github.com" style="color: #fff; text-decoration: none;">GitHub Pages</a></p>
+    <section class="skills">
+      <div class="container">
+          <h2>Skills</h2>
+          <ul>
+              <li><img src="https://earthengine.google.com/static/images/earth-engine-logo.png" alt="Geospatial Data Analysis (GEE)"></li>
+              <li><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python (ArcPy, Pandas, NumPy, Streamlit, PySpark, Matplotlib, scikit-learn)"></li>
+              <li><img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/sqlite_logo_icon_169724.png" alt="SQL"></li>
+              <li><img src="path/to/r-icon.png" alt="R"></li>
+              <li><img src="path/to/power-bi-icon.png" alt="Power BI"></li>
+              <li><img src="path/to/looker-icon.png" alt="Looker Studio"></li>
+
+              <li><img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel"></li>
+              <li><img src="https://icon.icepanel.io/Technology/svg/scikit-learn.svg" alt="Spreadsheet"></li>
+              <li><img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" alt="Matplotlib"></li>
+              <li><img src="https://ia600502.us.archive.org/11/items/github.com-streamlit-streamlit_-_2023-09-30_22-00-56/cover.jpg" alt="Business Development"></li>
+              <li><img src="https://cwiki.apache.org/confluence/download/attachments/33293105/SPARK?version=6&modificationDate=1465582929000&api=v2" alt="Strategic Communication"></li>
+          </ul>
+      </div>
+    </section>
+
+
+
+    <!-- Add more sections for projects, experience, etc. -->
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Watcharin Phoemphon. All rights reserved.</p>
+        </div>
     </footer>
-  </div>
 
 </body>
-
 </html>
